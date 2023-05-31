@@ -1,0 +1,284 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #181818;
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 12pt;
+		font-weight: 200;
+		color: #FFF;
+	}
+
+    .table-size{
+    height:700px;
+    }
+
+	table
+	{
+		border-collapse: collapse;
+		width: 100%;
+        border-radius:5px;
+		color:#FFF ;
+		background-color: #8B0000;
+		font-family: monospace;
+		border: 1px solid #ddd;
+		border-spacing: 0;
+		font-size: 14px ;
+		text-align: center;
+
+	}
+	th, td {
+     border: 1px solid black;
+
+    }
+
+
+
+	.label {
+	background-color:#2651a8;
+	}
+
+
+
+	
+
+	
+
+	
+	.dashboard p
+	{
+		line-height: 180%;
+	}
+	
+
+	
+    .dashboard {
+        margin-top: 20px;
+        overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+		height:700px;
+
+    }
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+		margin-bottom: 20px;
+
+	}
+
+	.dashboard h1
+	{
+	display:block;
+    padding-top: 70px;
+    font: monospace;
+    color : #FFF;
+    margin : 30px;
+    text-align: center;
+
+
+
+	}
+
+
+	#dash li , #dash a
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		margin-right: 25px;
+		background-color: #2651a8;
+		border-radius: 6px;
+		color: rgba(255,255,255,1);
+		float :left;
+	}
+
+    #async li
+    {
+
+    font-size: 12px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+
+
+
+    }
+
+
+	.mode h3
+	{
+    float:left;
+    margin: 5px;
+	}
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: rgba(255,0,0);
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #FFF;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		position: relative;
+		padding: 1em 0em 3em 0em;
+		background: #111111 url(images/bg1.jpg) no-repeat center;
+		background-size: cover;
+
+	}
+
+	#header
+	{
+		position: relative;
+		padding: 3em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		top: 2.5em;
+		right: 0;
+		height : 100px;
+
+
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: rgba(255,255,255,0.80);
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .active a
+	{
+		background: #2651a8;
+		border-radius: 6px;
+		color: rgba(255,255,255,1);
+	}
+	
+	#menu .icon
+	{
+	}
+
